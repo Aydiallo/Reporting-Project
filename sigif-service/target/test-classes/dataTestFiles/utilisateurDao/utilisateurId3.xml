@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<utilisateur id="3" idSAP="SAP3" login="diagne" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="DIAGNE" prenom="Malick" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-16 00:00:00.0" dateModification="2017-05-16 00:00:00.0"/>
+</dataset>

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="/WEB-INF/template/template.xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+       xmlns:sec="http://www.springframework.org/security/tags"
+      >
+    
+    <ui:define name="title" >
+        <title>AYD location</title>
+    </ui:define>
+    
+   <ui:define name="css" >
+   			<!-- Main CSS-->
+     <h:outputStylesheet library="css" name="main.css"/>
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+   </ui:define>
+    
+    <ui:define name="content" >
+      <main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-edit"></i> Form Components</h1>
+          <p>Bootstrap default form components</p>
+          
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+          <li class="breadcrumb-item">Forms</li>
+          <li class="breadcrumb-item"><a href="#">Form Components</a></li>
+        </ul>
+      </div>
+      <div class="row">
+         
+        <div class="col-md-12">
+          <div class="tile">
+            <div class="row">
+              <div class="col-lg-4">
+                <h:form  action="#" >
+                   
+                   <div class="form-group">
+                    <p:outputLabel for="ministere" value="Ministere"/><br/>
+                    <p:selectOneMenu id="ministere" value="#{controllerBean.selectMinistere}" filter="true" filterMatchMode="contains" style="width:100%" >
+			            <f:selectItem itemLabel="--Choisir un ministere--" itemValue="#{null}" />
+			            <f:selectItems value="#{controllerBean.listeMinistereDesignation}" />
+			            <p:ajax event="itemSelect" listener="#{controllerBean.onSelectMinistere}"  update="programme,servicedepensier"></p:ajax>
+			        </p:selectOneMenu>
+                    
+                  </div>
+                  
+                  <div class="form-group">
+                    <p:outputLabel for="programme" value="Programme"/><br/>
+                    <p:selectOneMenu id="programme" value="#{controllerBean.selectProgramme}"  filter="true" filterMatchMode="contains" style="width:100%">
+			            <f:selectItem itemLabel="--Choisir un programme--" itemValue="#{null}" />
+			            <f:selectItems value="#{controllerBean.listeProgrammeDescription}" />
+			        </p:selectOneMenu>
+                  </div>
+                  <div class="form-group">
+                    <p:outputLabel for="servicedepensier" value="Service depensier"/><br/>
+                    <p:selectOneMenu id="servicedepensier" value="#{controllerBean.selectServiceDepensier}"  filter="true" filterMatchMode="contains" style="width:100%">
+			            <f:selectItem itemLabel="--Choisir un service depensier--" itemValue="#{null}" />
+			            <f:selectItems value="#{controllerBean.listeServiceDepensierDescription}" />
+			        </p:selectOneMenu>
+                  
+                  </div>
+                   <div class="form-group">
+                      
+					  <label for="datedebut" >Date début</label><br />
+					  <p:calendar id="effect" value="#{calendarView.dateFrom}" effect="fold"  style="width:100%"/>
+					</div>
+					<div class="form-group">
+					  <label for="datefin" >Date fin</label><br />
+					  <p:calendar id="popup" value="#{calendarView.dateTo}" effect="fold"  style="width:100%"/>
+					</div>
+					<div class="tile-footer">
+     
+                             <p:commandButton value="Visualiser" id="ajax" ajax="true" oncomplete="PF('digchart').show()"
+                             actionListener="#{chartController.chartJumlahMahasiswaPerFakultas()}" styleClass="ui-priority-primary"
+                             update=":frmChart:pnChart" />
+				              
+				     </div>
+				     
+                     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                </h:form>
+              </div>
+             
+            </div>
+            <div class="col-lg-8">
+                <h:form id="frmChart">
+                	<p:dialog id="digChart" widgetVar="digChart" modal="true"
+                	header="titre du popup">
+                		<p:panel id="pnChart" style="border-style: none">
+                			<h:panelGrid columns="2"/>
+                			<p:chart type="pie" model="#{chartController.pieModel}" style="width:400px;height:300px" />
+                			<p:chart type="bar" model="#{chartController.categoryModel}"  responsive="true" style="height:300px"/>
+                		</p:panel>
+                	     
+                	</p:dialog>
+                	 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                </h:form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+        <!-- /page content -->
+
+       
+    </ui:define>
+  
+  <ui:define name="script" >
+   		    <!-- Essential javascripts for application to work-->
+    
+   
+    <h:outputScript library="js"  name="jquery-3.2.1.min.js"/>
+    
+    <h:outputScript type="text/javascript">
+ 		$.noConflict();
+    </h:outputScript>
+    <h:outputScript library="js"  name="popper.min.js"/>
+    <h:outputScript library="js"  name="bootstrap.min.js"/>
+     
+   
+    <h:outputScript library="js"  name="main.js"/>
+<!--     The javascript plugin to display page loading on top -->
+    <h:outputScript library="js"  name="plugins/pace.min.js"/>
+    <h:outputScript library="js"  name="plugins/bootstrap-datepicker.min.js"/>
+
+ 
+    <!-- Page specific javascripts-->
+    <!-- Google analytics script-->
+    
+     <script type="text/javascript">
+     
+      
+      $('#datedebut,#datefin').datepicker({
+      	format: "dd/mm/yyyy",
+      	autoclose: true,
+      	todayHighlight: true
+      });
+      
+      $('#ministere,#programme,#servicedepensier').select2();
+    </script>
+    <!-- Google analytics script-->
+    
+<!--         </script> -->
+   </ui:define>
+</ui:composition>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <lieu_stockage id="1" code="4301" division="DK" designation="DK43-DMTA Dakar" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="2" code="5401" division="DK" designation="DK54 - Dakar" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="3" code="5001" division="DK" designation="DK50 - Dakar" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="4" code="3201" division="DK" designation="DK32 - Dakar" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="5" code="7501" division="DK" designation="DK75-Univ CAD" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="6" code="5401" division="DB" designation="DB54 - Djourbel" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="7" code="5001" division="DB" designation="DB50 - Djourbel" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="8" code="3201" division="DB" designation="DB32 - Djourbel" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="9" code="7501" division="DB" designation="DK75-Univ Bambey" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="10" code="5401" division="FK" designation="FK54 - Fatick" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="11" code="5001" division="FK" designation="FK50 - Fatick" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="12" code="3201" division="FK" designation="FK32 - Fatick" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="13" code="5401" division="KA" designation="KA54 - Kaffrine" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="14" code="5001" division="KA" designation="KA50 - Kaffrine" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="15" code="3201" division="KA" designation="KA32 - Kaffrine" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="16" code="5401" division="KL" designation="KL54 - Kaolack" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="17" code="5001" division="KL" designation="KL50 - Kaolack" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="18" code="3201" division="KL" designation="KL32 - Kaolack" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="19" code="5001" division="KE" designation="KE50 - Kedougou" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="20" code="3201" division="KE" designation="KE32 - Kedougou" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="21" code="5401" division="KD" designation="KD54 - Kolda" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="22" code="5001" division="KD" designation="KD50 - Kolda" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="23" code="3201" division="KD" designation="KD32 - Kolda" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="24" code="5401" division="LG" designation="LG54 - Louga" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="25" code="5001" division="LG" designation="LG50 - Louga" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="26" code="3201" division="LG" designation="LG32 - Louga" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="27" code="5401" division="MT" designation="MT54 - Matam" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="28" code="5001" division="MT" designation="MT50 - Matam" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="29" code="3201" division="MT" designation="MT32 - Matam" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="30" code="5401" division="SL" designation="SL54 - St-Louis" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="31" code="5001" division="SL" designation="SL50 - St-Louis" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="32" code="3201" division="SL" designation="SL32 - St-Louis" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="33" code="7501" division="SL" designation="DK75-Univ Gb" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="34" code="5401" division="SE" designation="SE54 - S&#233;dhiou" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="35" code="5001" division="SE" designation="SE50 - S&#233;dhiou" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="36" code="3201" division="SE" designation="SE32 - S&#233;dhiou" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="37" code="5401" division="TC" designation="TC54 - Tambac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="38" code="5001" division="TC" designation="TC50 - Tambac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="39" code="3201" division="TC" designation="TC32 - Tambac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="40" code="5401" division="TH" designation="TH54 - Thi&#232;s" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="41" code="5001" division="TH" designation="TH50 - Thi&#232;s" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="42" code="3201" division="TH" designation="TH32 - Thi&#232;s" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="43" code="7501" division="TH" designation="DK75-Univ Thi&#232;s" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="44" code="5401" division="ZG" designation="ZG54 - Ziguinch." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="45" code="5001" division="ZG" designation="ZG50 - Ziguinch." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="46" code="3201" division="ZG" designation="ZG32 - Ziguinch." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="47" code="7501" division="ZG" designation="DK75-Univ DZ" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="48" code="CC01" division="CC" designation="CST Cpt Commerce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="49" code="CP01" division="CP" designation="CST Pr&#234;ts" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="50" code="CA01" division="CA" designation="CST Avances" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="51" code="CG01" division="CG" designation="CST Garantie" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="52" code="CS01" division="CS" designation="CST Affect. spe." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="53" code="BA01" division="BA" designation="Budget Annexe" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+</dataset>

@@ -1,0 +1,9 @@
+insert into utilisateur(login,password,email,compteActif,motDePasseGenerer) 
+  values ('malick','diagne','el-hadji-malick.diagne@atos.net',true,false);
+
+insert into utilisateur(login,password,email,compteActif,motDePasseGenerer) 
+  values ('beatrice','bouchot','beatrice.bouchot@atos.net',true,false);
+  
+insert into utilisateur(login,password,email,compteActif,motDePasseGenerer) 
+  values ('evelyne','dalle','evelyne.dalle@atos.net',true,false);  
+

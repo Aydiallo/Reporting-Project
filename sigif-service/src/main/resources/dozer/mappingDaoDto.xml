@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>com.sigif.modele.Utilisateur</class-a>
+        <class-b>com.sigif.dto.UtilisateurDTO</class-b>
+    </mapping>
+    <mapping>
+        <class-a>com.sigif.modele.Departement</class-a>
+        <class-b>com.sigif.dto.DepartementrDTO</class-b>
+    </mapping>
+    <mapping>
+        <class-a>com.sigif.modele.CreditDisponible</class-a>
+        <class-b>com.sigif.dto.CreditDisponibleDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.Ministere</class-a>
+        <class-b>com.sigif.dto.MinistereDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.Role</class-a>
+        <class-b>com.sigif.dto.RoleDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.ServiceDepensier</class-a>
+        <class-b>com.sigif.dto.ServiceDepensierDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.Profil</class-a>
+        <class-b>com.sigif.dto.ProfilDTO</class-b>
+    </mapping>
+    <mapping>
+        <class-a>com.sigif.modele.DemandeAchat</class-a>
+        <class-b>com.sigif.dto.DemandeAchatDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.Programme</class-a>
+        <class-b>com.sigif.dto.ProgrammeDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.CategorieAchat</class-a>
+        <class-b>com.sigif.dto.CategorieAchatDTO</class-b>
+    </mapping>
+
+     <mapping>
+        <class-a>com.sigif.modele.PosteCommandeAchat</class-a>
+        <class-b>com.sigif.dto.PosteCommandeAchatDTO</class-b>
+    </mapping>
+
+     <mapping>
+        <class-a>com.sigif.modele.CommandeAchat</class-a>
+        <class-b>com.sigif.dto.CommandeAchatDTO</class-b>
+    </mapping>
+     <mapping>
+        <class-a>com.sigif.modele.PosteConstatationServiceFait</class-a>
+        <class-b>com.sigif.dto.PosteConstatationServiceFaitDTO</class-b>
+    </mapping>
+
+</mappings>

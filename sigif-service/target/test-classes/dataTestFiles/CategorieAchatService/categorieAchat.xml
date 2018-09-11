@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <utilisateur id="1" idSAP="SAP1" login="alardo" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="ALARDO" prenom="Catherine" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="2" idSAP="SAP2" login="reynaud" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="REYNAUD" prenom="Angélique" telephone="" courriel="angelique.reynaud@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="3" idSAP="SAP3" login="diagne" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="DIAGNE" prenom="Malick" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="4" idSAP="SAP4" login="beaupoil" password="89999f0d39a1c0c788efa77f9192a699" civilite="Monsieur" nom="BEAUPOIL" prenom="Mickael" telephone="" courriel="mickael.beaupoil@atos.net" compteActif="true" motDePasseGenere="true" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="5" idSAP="SAP5" login="beye" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="BEYE" prenom="Meissa" telephone="" courriel="mame-meissa.beye@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="6" idSAP="SAP6" login="ndir" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="NDIR" prenom="Mamadou" telephone="" courriel="mamadou.ndir@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="7" idSAP="SAP7" login="bouchot" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="BOUCHOT" prenom="Béatrice" telephone="" courriel="beatrice.bouchot@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="8" idSAP="SAP8" login="admin" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="ATOS" prenom="administrateur" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <utilisateur id="10" idSAP="TEST1" login="sansCompte" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="FORMULAIRE" prenom="sans compte" telephone="" courriel="catherine.alardo@atos.net" compteActif="false" motDePasseGenere="false" avecCompte="false" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0"/>
+  <utilisateur id="11" idSAP="TEST2" login="sansMail" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="SANS MAIL" prenom="avec compte" telephone="" courriel="" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0"/>
+  <utilisateur id="12" idSAP="TEST3" login="avecCompteSansRole" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE" prenom="avec compte" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0"/>
+  <utilisateur id="13" idSAP="TEST4" login="MotDePasseGenere" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="MDP GENERE" prenom="avec compte" telephone="" courriel="mickael.beaupoil@atos.net" compteActif="true" motDePasseGenere="true" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0"/>
+  <utilisateur id="14" idSAP="TEST5" login="avecCompteInactif" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="INACTIF" prenom="avec compte" telephone="" courriel="mame-meissa.beye@atos.net" compteActif="false" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0"/>
+  <utilisateur id="16" idSAP="TEST6" login="utilisateurDesactive" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="USER INACTIF" prenom="avec compte" telephone="" courriel="mamadou.ndir@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="inactif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0"/>
+  <utilisateur id="17" idSAP="TEST7" login="avecCompteTousRoles" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE TOUS LES ROLES" prenom="avec compte" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-19 00:00:00.0" dateModification="2017-05-19 00:00:00.0"/>
+  <utilisateur id="18" idSAP="TEST8" login="avecCompteDemandeur" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE DEMANDEUR" prenom="avec compte" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-19 00:00:00.0" dateModification="2017-05-19 00:00:00.0"/>
+  <utilisateur id="19" idSAP="TEST9" login="avecCompteReceptionnaire" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE RECEPTIONNAIRE" prenom="avec compte" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-19 00:00:00.0" dateModification="2017-05-19 00:00:00.0"/>
+  <role id="1" code="DDA" designation="Demandeur DA"/>
+  <role id="2" code="RSF" designation="Réceptionnaire SF"/>
+  <ministere id="1" code="21" designation="Présidence de la république" perimetreFinancier="SNCS" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="2" code="22" designation="Assemblée nationale" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="3" code="31" designation="Ministère des affaires etrangeres et des" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="4" code="33" designation="Ministère de l'intérieur et de la sécuri" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="5" code="34" designation="Ministère de la justice" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="6" code="40" designation="Ministère de la pêche et de l'economie m" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="7" code="43" designation="Ministère de l'economie des finances et " perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="8" code="50" designation="Ministère de l'education nationale" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <ministere id="9" code="54" designation="Ministère de la santé et de l'action soc" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="1" code="11701440110" designation="Service social mae" perimetreFinancier="SNBG" idMinistere="1" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="2" code="11701580111" designation="Cellule de planification, du suivi évalu" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="3" code="11701590111" designation="Cellule de passation des marchés" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="4" code="12204080111" designation="Direction du protocole et des conférence" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="5" code="11100390110" designation=" cabinet du secrétaire d'etat aux sénéga" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="6" code="11701290110" designation="Bureau de coordination du comiac" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="7" code="11900060000" designation="Pélerinages aux lieux-saints" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="8" code="11100110100" designation="Cabinet du ministre" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <profil id="1" idUtilisateur="1" idMinistere="1" idServiceDepensier="1" idRole="1"/>
+  <programme id="1" code="1001" description="Pilotage,  gestion et coordination administrative" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <action id="1" code="1001-01" description="Stratégie ministérielle" perimetreFinancier="SNBG" idProgramme="1" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <activite/>
+  <groupe_de_marchandises id="1" code="620101" designation="Rame, paquet et rouleau de papier" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="1" code="SAC" nom="Sac" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="2" code="BT." nom="Bouteille" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="3" code="NC" nom="Caisse" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="4" code="DEG" nom="Degré" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="5" code="TR" nom="Tambour" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="6" code="DZ" nom="douzaine" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="7" code="/PC" nom="par pièce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="8" code="UE" nom="Uté enzyme" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="9" code="UML" nom="Enzyme/ml" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="10" code="GRL" nom="gma/litre" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="11" code="GAU" nom="Gramme or" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="12" code="BRT" nom="Brut" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="13" code="GMA" nom="g mat.act." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="14" code="JER" nom="Jerrycan" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="15" code="CRN" nom="Carton" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="16" code="KMA" nom="kg mat.ac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="17" code="CSN" nom="Caisson" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="18" code="KMK" nom="kgm/kg" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="19" code="UO" nom="Uté puiss." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="20" code="MLM" nom="ml mat.ac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="21" code="PAI" nom="Paire" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="22" code="PAQ" nom="Paquet" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="23" code="PAL" nom="Palette" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="24" code="PCT" nom="Part grpe" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="25" code="PRS" nom="Personnes" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="26" code="ROL" nom="Role" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="27" code="Pce" nom="Pièce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="28" code="MLR" nom="Milliers" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="29" code="VAL" nom="Value/val." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="30" code="L" nom="Litre" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="1" numero="1" designation="DESK PRODUCT TEST" idGMA="1" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="2" numero="PAPIER" designation="Ramette Papier A4" idGMA="1" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="3" numero="GOMME" designation="Gommes (par 2)" idGMA="1" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_achat id="1" code="T" designation="Travaux" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <categorie_achat id="2" code="F" designation="Fournitures" statut="inactif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <categorie_achat id="3" code="S" designation="Services" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <categorie_achat id="4" code="P" designation="Prestations Intellectuelles" statut="inactif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <piece_jointe/>
+  <type_fonds id="1" perimetreFinancier="SNBG" code="RP" designation="Ressources propres" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <fonds id="1" code="ETAT" designation="Etat" idTypeFonds="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="1" code="IIC" designation="Immobilisations Incorporelles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="1" code="2111ISLN" designation="Frais de recherche et de développement agronomique" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="1" code="200000000001" designation="terrain de foot" idCategorieImmo="1" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <devise id="1" code="AED" designation="Dirham des émirats arabes unis" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_achat id="1" code="S" designation="Achats stockés" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_achat id="2" code="F" designation="Fonctionnement" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_achat id="3" code="I" designation="Immobilisation" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="1" code="4301" division="DK" designation="DK43-DMTA Dakar" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_commande id="1" code="MCOM" designation="Bon de commande" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <region id="1" code="1" designation="DAKAR" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <ville id="1" code="1111" designation="Ile de gorée" idRegion="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <demande_achat/>
+  <poste_demande_achat/>
+  <da_statut_avancement_historique/>
+  <commande_achat />
+  <poste_commande_achat />
+  <constatation_service_fait/>
+  <poste_constatation_service_fait/>
+  <csf_statut_avancement_historique/>
+</dataset>

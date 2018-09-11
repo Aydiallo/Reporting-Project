@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>  
+  <utilisateur id="8" idSAP="SAP8" login="utilisateurUpdate" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Mademoiselle" nom="ATOS" prenom="administrateur" telephone="" courriel="nouveauMail@test.unitaire" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-16 00:00:00.0" dateModification="2017-05-16 00:00:00.0"/>
+</dataset>

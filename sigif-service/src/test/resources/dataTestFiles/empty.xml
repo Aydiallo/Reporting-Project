@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <utilisateur />
+  <role />
+  <ministere />
+  <service_depensier />
+  <profil />
+  <programme />
+  <action />
+  <activite />
+  <groupe_de_marchandises />
+  <unite />
+  <article />
+  <categorie_achat />
+  <piece_jointe />
+  <type_fonds />
+  <fonds />
+  <type_immobilisation />
+  <categorie_immobilisation />
+  <immobilisation />
+  <devise />
+  <type_achat />
+  <lieu_stockage />
+  <type_commande />
+  <region />
+  <ville />
+  <demande_achat />
+  <poste_demande_achat />
+   <da_data_impact />
+  <da_statut_avancement_historique />
+  <commande_achat />
+  <poste_commande_achat />
+  <constatation_service_fait />
+  <poste_constatation_service_fait />
+  <csf_statut_avancement_historique />
+  <echanges_sap />
+</dataset>

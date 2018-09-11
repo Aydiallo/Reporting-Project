@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <echanges_sap id="1" dateLancement="2017-05-15 01:00:00.0" dateFin="2017-05-15 03:00:00.0" statut="OK" />
+  <echanges_sap id="2" dateLancement="2017-05-16 01:00:00.0" dateFin="2017-05-16 03:00:00.0" statut="KO" />
+  <echanges_sap id="3" dateLancement="2017-05-17 01:00:00.0" dateFin="2017-05-17 03:00:00.0" statut="OK" />
+  <echanges_sap id="4" dateLancement="2017-05-18 01:00:00.0" dateFin="2017-05-18 03:00:00.0" statut="OK" />
+  <echanges_sap id="5" dateLancement="2017-05-19 01:00:00.0" dateFin="2017-05-19 03:00:00.0" statut="KO" />
+  <echanges_sap id="6" dateLancement="2017-05-20 01:00:00.0" dateFin="2017-05-20 03:00:00.0" statut="OK" />
+  <echanges_sap id="7" dateLancement="2017-05-21 01:00:00.0" dateFin="2017-05-21 03:00:00.0" statut="OK" />
+</dataset>

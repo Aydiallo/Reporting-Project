@@ -1,0 +1,52 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+xmlns:beans="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+		   http://www.springframework.org/schema/beans/spring-beans.xsd
+		   http://www.springframework.org/schema/security
+		   http://www.springframework.org/schema/security/spring-security.xsd">
+	
+	<http auto-config="true" use-expressions="true">   
+	    <intercept-url  pattern="/xhtml/login.xhtml" access="permitAll" />
+	    <intercept-url pattern="/resources/**" access="permitAll" />
+		<intercept-url  pattern="/**" access="hasAnyRole('ROLE_DDA','ROLE_ADMIN')" />
+		<form-login 
+		   login-page="/xhtml/login.xhtml" 
+		   login-processing-url="/appLogin"
+		   username-parameter="username"
+		   password-parameter="password"
+		   default-target-url="/xhtml/index.xhtml"/>
+		<logout 
+		   logout-url="/appLogout" 
+		   logout-success-url="/xhtml/login.xhtml"/>  
+	</http>
+	
+<!-- 	<authentication-manager> -->
+<!-- 		<authentication-provider> -->
+<!-- 			<user-service> -->
+<!-- 				<user name="ram" password="ram" authorities="ROLE_ADMIN" /> -->
+<!-- 			</user-service> -->
+<!-- 		</authentication-provider> -->
+<!-- 	</authentication-manager> -->
+	
+<!-- 	concat('ROLE_',r.code) -->
+	<authentication-manager>
+        <authentication-provider>
+            <password-encoder hash="md5"/>
+            <jdbc-user-service data-source-ref="dataSource"
+           
+                users-by-username-query="select login as username, password, compteActif as enabled from UTILISATEUR where login = ? "
+                authorities-by-username-query="select distinct(u.login) as username,concat('ROLE_',r.code)  from UTILISATEUR u, ROLE r, PROFIL p where u.id = p.idUtilisateur AND
+                  p.idRole = r.id and u.login = ? " /> 
+        </authentication-provider>
+    </authentication-manager>
+ 
+    <beans:bean id="dataSource"
+        class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <beans:property name="url"
+            value="jdbc:mysql://localhost:3306/sigif" />
+        <beans:property name="username" value="alpha" />
+        <beans:property name="password" value="alpha" />
+    </beans:bean>
+</beans:beans> 

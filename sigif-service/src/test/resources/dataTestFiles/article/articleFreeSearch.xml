@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <groupe_de_marchandises id="1" code="620101" designation="Rame, paquet et rouleau de papier" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="2" code="620501" designation="Accessoires  de bureau" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="3" code="620601" designation="Consommables pour impression " statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="4" code="620701" designation="Manuels et supports p&#233;dagogiques" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="5" code="620801" designation="Outils didactiques" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="6" code="620901" designation="Accessoires &amp; p&#233;riph&#233;riques ordinateurs" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="7" code="621001" designation="Accessoires  pour nettoiement             " statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="8" code="621101" designation="Matériels de ramassage et de stockage d'ordures" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="9" code="621201" designation="D&#233;tergents" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="10" code="621301" designation="Produits d&#233;sinfectants" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="1" code="SAC" nom="Sac" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="2" code="BT." nom="Bouteille" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="3" code="NC" nom="Caisse" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="4" code="DEG" nom="Degr&#233;" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="5" code="TR" nom="Tambour" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="6" code="DZ" nom="douzaine" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="7" code="/PC" nom="par pièce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="8" code="UE" nom="Ut&#233; enzyme" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="9" code="UML" nom="Enzyme/ml" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="10" code="GRL" nom="gma/litre" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="11" code="GAU" nom="Gramme or" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="12" code="BRT" nom="Brut" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="13" code="GMA" nom="g mat.act." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="14" code="JER" nom="Jerrycan" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="15" code="CRN" nom="Carton" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="16" code="KMA" nom="kg mat.ac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="17" code="CSN" nom="Caisson" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="18" code="KMK" nom="kgm/kg" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="19" code="UO" nom="Ut&#233; puiss." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="20" code="MLM" nom="ml mat.ac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="21" code="PAI" nom="Paire" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="22" code="PAQ" nom="Paquet" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="23" code="PAL" nom="Palette" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="24" code="PCT" nom="Part grpe" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="25" code="PRS" nom="Personnes" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="26" code="ROL" nom="R&#244;le" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="27" code="Pce" nom="Pièce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="28" code="MLR" nom="Milliers" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="29" code="VAL" nom="Value/val." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="30" code="L" nom="Litre" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="1" numero="1" designation="rr&quot;dfezf ere" idGMA="1" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="2" numero="PAPIER" designation="Ramette Papier A4" idGMA="10" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="3" numero="GOMME" designation="Gommes (par 2)" idGMA="4" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>  
+  <article id="4" numero="CAHIER" designation="Cahier 200 pages" idGMA="6" idUnite="7" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="5" numero="SAC" designation="Sac à dos" idGMA="5" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="6" numero="STYLO" designation="Stylo à Bille" idGMA="1" idUnite="27" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="7" numero="EQUERRE" designation="Equerre d'écolier" idGMA="1" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="8" numero="COMPAS" designation="Compas" idGMA="10" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="9" numero="REGLE" designation="Double décimètre" idGMA="4" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="10" numero="CRAYON" designation="Crayon noir" idGMA="8" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="11" numero="TP" designation="Cahier Traveaux Pratiques" idGMA="7" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="12" numero="CLASSEUR" designation="Classeur documents" idGMA="2" idUnite="27" statut="inactif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="13" numero="REGLEUH" designation="double décim" idGMA="4" idUnite="20" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="14" numero="TRAYAU" designation="trayon" idGMA="8" idUnite="20" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="15" numero="CTP" designation="cahier Travaux Pratiques" idGMA="7" idUnite="23" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="16" numero="CLASSEURDOC" designation="Clapeur documentsdsq" idGMA="2" idUnite="30" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="17" numero="CLASSEURTRUC" designation="aClasseur documentsq" idGMA="2" idUnite="30" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+</dataset>

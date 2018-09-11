@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <utilisateur id="1" idSAP="SAP1" login="alardo" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="ALARDO" prenom="Catherine" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <role id="1" code="DDA" designation="Demandeur DA"/>
+  <ministere id="1" code="21" designation="Présidence de la république" perimetreFinancier="SNCS" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="1" code="11701440110" designation="Service social mae" perimetreFinancier="SNBG" idMinistere="1" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <profil id="1" idUtilisateur="1" idMinistere="1" idServiceDepensier="1" idRole="1"/>
+  <programme id="1" code="1001" description="Pilotage,  gestion et coordination administrative" perimetreFinancier="SNBG" idMinistere="1" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <action id="1" code="1001-01" description="Stratégie ministérielle" perimetreFinancier="SNBG" idProgramme="1" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <activite/>
+  <groupe_de_marchandises id="1" code="620101" designation="Rame, paquet et rouleau de papier" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="2" code="620501" designation="Accessoires  de bureau" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="3" code="620601" designation="Consommables pour impression " statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="4" code="620701" designation="Manuels et supports pédagogiques" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="5" code="620801" designation="Outils didactiques" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="6" code="620901" designation="Accessoires  et  périphériques ordinateurs" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="7" code="621001" designation="Accessoires  pour nettoiement             " statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="8" code="621101" designation="Matériels de ramassage et de stockage d'ordures" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="9" code="621201" designation="Détergents" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="10" code="621301" designation="Produits désinfectants" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="11" code="621401" designation="Produits désodorisants" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="12" code="621501" designation="Carburants et combustibles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="13" code="621601" designation="Lubrifiants" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="14" code="621701" designation="Ampoules" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="15" code="621801" designation="Appareils d'éclairage" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="16" code="621901" designation="Batteries /piles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="17" code="622001" designation="Accessoires  électriques et électroniques" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="18" code="622101" designation="Pièces détachées et accessoires pour véhicules" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="19" code="622201" designation="Tenues" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="20" code="622301" designation="Ceintures " statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="21" code="622401" designation="Casquettes, bérets et toques" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="22" code="622501" designation="Boutons " statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="23" code="622601" designation="Chaussures et chaussettes" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="24" code="622701" designation="Attributs et distinctions" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="25" code="622801" designation="Produits pharmaceutiques, humains et vétérinaires" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="26" code="622901" designation="Produits chimiques" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="27" code="623001" designation="Accessoires médicaux" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="28" code="623101" designation="Accessoires de Laboratoire" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="29" code="623201" designation="Intrants agricoles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="30" code="623301" designation="Produits horticoles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="31" code="623401" designation="Produits agricoles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="32" code="623501" designation="Produits de la pêche" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="33" code="623601" designation="Produits de l'élevage" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="34" code="623701" designation="Produits de la chasse" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="35" code="623801" designation="Condiments" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="36" code="623901" designation="Produits alimentaires" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="37" code="624001" designation="Accessoires de menuiserie" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="38" code="624101" designation="Accessoires de plomberie" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="39" code="624201" designation="Fils" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="40" code="624301" designation="Accessoires de protection" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="41" code="624401" designation="Accessoires  de toilette" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="42" code="624501" designation="Toises" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="43" code="624601" designation="Attelles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="44" code="624701" designation="Matériaux de construction" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="45" code="624801" designation="Accessoires de cuisine" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="46" code="624901" designation="Accessoires  d'emballage" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="47" code="625001" designation="Accessoires pour chambre à coucher" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="48" code="625101" designation="Accessoires de navigation" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="49" code="625201" designation="Accessoires de pêche" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="50" code="625301" designation="Accessoires de quincaillerie" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="51" code="625401" designation="Fournitures pour matériels de topographie" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="52" code="625501" designation="Tissus" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="53" code="625601" designation="Accessoires de couture" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="54" code="625801" designation="Sacs et valises" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="55" code="625901" designation="Accessoires et équipements sportifs" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="56" code="626001" designation="Item (groupe d'articles)" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="57" code="626101" designation="Sébiles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="58" code="626201" designation="Accessoires armes légères" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <groupe_de_marchandises id="59" code="626301" designation="Matériels et accessoires de jeux" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="1" code="SAC" nom="Sac" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="2" code="BT." nom="Bouteille" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="3" code="NC" nom="Caisse" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="4" code="DEG" nom="Degré" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="5" code="TR" nom="Tambour" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="6" code="DZ" nom="douzaine" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="7" code="/PC" nom="par pièce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="8" code="UE" nom="Uté enzyme" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="9" code="UML" nom="Enzyme/ml" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="10" code="GRL" nom="gma/litre" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="11" code="GAU" nom="Gramme or" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="12" code="BRT" nom="Brut" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="13" code="GMA" nom="g mat.act." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="14" code="JER" nom="Jerrycan" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="15" code="CRN" nom="Carton" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="16" code="KMA" nom="kg mat.ac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="17" code="CSN" nom="Caisson" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="18" code="KMK" nom="kgm/kg" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="19" code="UO" nom="Uté puiss." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="20" code="MLM" nom="ml mat.ac." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="21" code="PAI" nom="Paire" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="22" code="PAQ" nom="Paquet" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="23" code="PAL" nom="Palette" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="24" code="PCT" nom="Part grpe" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="25" code="PRS" nom="Personnes" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="26" code="ROL" nom="Role" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="27" code="Pce" nom="Pièce" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="28" code="MLR" nom="Milliers" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="29" code="VAL" nom="Value/val." statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <unite id="30" code="L" nom="Litre" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="1" numero="1" designation="DESK PRODUCT TEST" idGMA="1" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="2" numero="PAPIER" designation="Ramette Papier A4" idGMA="12" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <article id="3" numero="GOMME" designation="Gommes (par 2)" idGMA="59" idUnite="27" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_achat id="1" code="T" designation="Travaux" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <categorie_achat id="2" code="F" designation="Fournitures" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <categorie_achat id="3" code="S" designation="Services" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <categorie_achat id="4" code="P" designation="Prestations Intellectuelles" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <piece_jointe/>
+  <type_fonds id="1" perimetreFinancier="SNBG" code="RP" designation="Ressources propres" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="2" perimetreFinancier="SNBG" code="RE" designation="Ressources externes" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="3" perimetreFinancier="SNBG" code="EM" designation="Emprunts" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="4" perimetreFinancier="SNBG" code="SU" designation="Subvention" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="5" perimetreFinancier="SNCS" code="RP" designation="Ressources propres" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="6" perimetreFinancier="SNCS" code="RE" designation="Ressources externes" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="7" perimetreFinancier="SNCS" code="EM" designation="Emprunts" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_fonds id="8" perimetreFinancier="SNCS" code="SU" designation="Subvention" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <fonds id="1" code="ETAT" designation="Etat" idTypeFonds="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="1" code="IIC" designation="Immobilisations Incorporelles" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="2" code="SOL" designation="Sols et sous-sols" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="3" code="MOB" designation="Matériel et Mobiliers" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="4" code="EQM" designation="Equipements Militaires" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="5" code="IMM" designation="Immeubles (Parc immobilier)" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="6" code="PCT" designation="Participation et Cautionnement" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="7" code="VHC" designation="Véhicule" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_immobilisation id="8" code="IEC" designation="Immobilisations en Cours" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="1" code="2111ISLN" designation="Frais de recherche et de développement agronomique" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="2" code="2112ISLN" designation="Frais de recherche et de développement technologiq" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="3" code="2113ISLN" designation="Frais de recherche  de développement scientifique" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="4" code="2119ISLN" designation="Autres frais de recherche et de développement" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="5" code="2121ISLN" designation="Brevets" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="6" code="2122ISLN" designation="Marque de fabrique" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="7" code="2123ISLN" designation="Droits d'auteur" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="8" code="2129ISLN" designation="Autres brevets, marque de fabrique et droit auteur" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="9" code="2131ISLN" designation="Conception sytèmes d'organisation" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="10" code="2132ISLN" designation="Acquisition prologiciels et logiciels" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="11" code="2139ISLN" designation="Autres conception sytèmes organisation -prologicie" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="12" code="2141ISLN" designation="Droits d'exploitation" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="13" code="2142ISLN" designation="Fonds de commerce" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="14" code="2149ISLN" designation="Autres droits d'exploitation - fonds de commerce" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="15" code="2151ISLN" designation="Recherche pour valoris tion ressources humaines" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="16" code="2191ISLN" designation="Autres droits et valeurs incorporels" idTypeImmo="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="17" code="2211SSLN" designation="Acquition terrains" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="18" code="2212SSLN" designation="Viabilisation et aménagement des terres" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="19" code="2213SSLN" designation="Indemnités d'expropriation" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="20" code="2219SSLN" designation="Autres terrains" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="21" code="2221SSLN" designation="Sous-sols amortissables" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="22" code="2222SSLN" designation="Sous-sols, Gisements et carrières amortissables" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="23" code="2229SSLN" designation="Autres s-sols, gisements, carrières amortissables" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="24" code="2221SS00" designation="Sous-sols non amortissables" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="25" code="2222SS00" designation="Sous-sols, Gisements, carrières non amortissables" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="26" code="2229SS00" designation="Autres s-sols, gisements,carrières non amort." idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="27" code="2231SSLN" designation="Plantations" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="28" code="2232SSLN" designation="Forêts" idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="29" code="2241SSLN" designation="bassins, lacs, mares, ..." idTypeImmo="2" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="30" code="2311PSLN" designation="Bâtiments administratifs à usage de bureau" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="31" code="2321PSLN" designation="Bâtiments administratifs à usage de logement civil" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="32" code="2322PSLN" designation="Bâtiments administratifs à usage de logement milit" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="33" code="2331PSLN" designation="Bâtiments administratifs à usage scolaire" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="34" code="2332PSLN" designation="Bâtiments administratifs à usage universitaire" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="35" code="2334PSLN" designation="Bâtiments administratifs à usage sanitaire" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="36" code="2335PSLN" designation="Bâtiments administratifs à usage culturel et socio" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="37" code="2336PSLN" designation="Bâtiments administratifs à usage frigorifique" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="38" code="2339PSLN" designation="Autres bâtiments administratifs à usage technique" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="39" code="2341PSLN" designation="Ouvrages de transports" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="40" code="2342PSLN" designation="Aménagement hydroagricoles et ouvrages retenue et " idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="41" code="2343PSLN" designation="Ouvrages d'alimentation en eau potable" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="42" code="2344PSLN" designation="Ouvrages d'alimentation des eaux pluviales et usé" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="43" code="2345PSLN" designation="Ouvrages production, transp.  et  distrib. énergie" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="44" code="2349PSLN" designation="Autres ouvrages et infrastructures" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="45" code="2351PSLN" designation="Infrastructures sportives" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="46" code="2352PSLN" designation="Infrastructures à usage économique" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="47" code="2359PSLN" designation="Autres Infrastructures" idTypeImmo="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="48" code="2411MSLN" designation="Mobilier et matériel de bureau" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="49" code="2412MSLN" designation="Mobilier et matériel de logement" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="50" code="2413MSLN" designation="Mobilier et matériel  scolaires" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="51" code="2419MSLN" designation="Autres mobilier et matériel " idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="52" code="2421MSLN" designation="Matériels informatique" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="53" code="2422MSLN" designation="Matériels audiovisuel" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="54" code="2429MSLN" designation="Autres matériels informatique et de communication" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="55" code="2431VSLN" designation="Matériel de transport de service" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="56" code="2432VSLN" designation="Matériel de transport de fonction" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="57" code="2439VSLN" designation="Autres matériel de transport" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="58" code="2441MSLN" designation="Matériel agricole" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="59" code="2442MSLN" designation="Matériel de reboisement" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="60" code="2443MSLN" designation="Matériel équipement de pêche" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="61" code="2444MSLN" designation="Matériel équipement hydraulique" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="62" code="2445MSLN" designation="Matériel et équipement de sport" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="63" code="2446MSLN" designation="Matériel et équipement de conservation et de trans" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="64" code="2447MSLN" designation="Matériel et équipement médical" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="65" code="2448MSLN" designation="Matériel et équipement de surveillance" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="66" code="2449MSLN" designation="Autres Matériel et outillages techniques" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="67" code="2451MSLN" designation="Matériel de transport en commun" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="68" code="2452MSLN" designation="Matériel de transport de marchandises" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="69" code="2459MSLN" designation="Autres" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="70" code="2461MSLN" designation="Collections-oeuvres d'art" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="71" code="2471MSLN" designation="Stocks de céréales" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="72" code="2472MSLN" designation="Stocks de carburant" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="73" code="2479MSLN" designation="Autres stocks stratégiques ou d'urgence" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="74" code="2481MSLN" designation="Acquisition d'animaux de race" idTypeImmo="3" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="75" code="2511ESLN" designation="Bâtiments militaires à usage de bureau" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="76" code="2512ESLN" designation="Autres bâtiments militaires (autre que logement et" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="78" code="2521ESLN" designation="Ouvrages et infrastructures terrestres" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="79" code="2522ESLN" designation="Ouvrages et infrastructures aériens" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="80" code="2523ESLN" designation="Ouvrages et infrastructures maritimes" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="82" code="2531ESLN" designation="Mobiliers" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="83" code="2532ESLN" designation="Matériels" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="84" code="2539ESLN" designation="Autres équipements militaires" idTypeImmo="4" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="85" code="2611FS00" designation="Prises de participations à l'intérieur" idTypeImmo="6" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="86" code="2621FS00" designation="Prises de participations à l'extérieur" idTypeImmo="6" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="87" code="2641FS00" designation="Cautionnements" idTypeImmo="6" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="88" code="2111IC00" designation="IEC Frais de recherche et de dév. agronomique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="89" code="2112IC00" designation="IEC Frais de recherche et de dév. technologiq" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="90" code="2113IC00" designation="IEC Frais de recherche  de dév. scientifique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="91" code="2119IC00" designation="IEC Autres frais de recherche et de développement" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="92" code="2121IC00" designation="IEC Brevets" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="93" code="2122IC00" designation="IEC Marque de fabrique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="94" code="2123IC00" designation="IEC Droits d'auteur" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="95" code="2129IC00" designation="IEC Autres brevets, marque de fab. et droit auteur" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="96" code="2131IC00" designation="IEC Conception sytèmes d'organisation" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="97" code="2132IC00" designation="IEC Acquisition prologiciels et logiciels" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="98" code="2139IC00" designation="IEC Autres conception sytèmes organisation" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="99" code="2141IC00" designation="IEC Droits d'exploitation" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="100" code="2142IC00" designation="IEC Fonds de commerce" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="101" code="2149IC00" designation="IEC Autres droits d'ex. - fonds de commerce" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="102" code="2151IC00" designation="IEC Recherche pour valorisation ress. humaines" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="103" code="2191IC00" designation="IEC Autres droits et valeurs incorporels" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="104" code="2211SC00" designation="IEC Acquition terrains" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="105" code="2212SC00" designation="IEC Viabilisation et aménagement des terres" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="106" code="2213SC00" designation="IEC Indemnités d'expropriation" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="107" code="2219SC00" designation="IEC Autres terrains" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="108" code="2221SC00" designation="IEC Sous-sols" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="109" code="2222SC00" designation="IEC Sous-sols, Gisements et carrières " idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="110" code="2229SC00" designation="IEC Autres sous-sols, gisements et carrières " idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="111" code="2231SC00" designation="IEC Plantations" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="112" code="2232SC00" designation="IEC Forêts" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="113" code="2241SC00" designation="IEC bassins, lacs, mares, ..." idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="114" code="2311PC00" designation="IEC Bâtiments administratifs à usage de bureau" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="115" code="2321PC00" designation="IEC Bât administratifs à usage de logement civil" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="116" code="2322PC00" designation="IEC Bât administratifs à usage de logement milit" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="117" code="2331PC00" designation="IEC Bâtiments administratifs à usage scolaire" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="118" code="2332PC00" designation="IEC Bâtiments administratifs à usage universitaire" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="119" code="2334PC00" designation="IEC Bâtiments administratifs à usage sanitaire" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="120" code="2335PC00" designation="IEC Bât administratifs à usage culturel et socio" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="121" code="2336PC00" designation="IEC Bât administratifs à usage frigorifique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="122" code="2339PC00" designation="IEC Autres bât administratifs à usage technique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="123" code="2341PC00" designation="IEC Ouvrages de transports" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="124" code="2342PC00" designation="IEC Aménagement hydroagricoles et ouvrages" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="125" code="2343PC00" designation="IEC Ouvrages d'alimentation en eau potable" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="126" code="2344PC00" designation="IEC Ouvrages d'alimentation des eaux pluviales" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="127" code="2345PC00" designation="IEC Ouvrages prod, transp.  et  distrib. énergie" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="128" code="2349PC00" designation="IEC Autres ouvrages et infrastructures" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="129" code="2351PC00" designation="IEC Infrastructures sportives" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="130" code="2352PC00" designation="IEC Infrastructures à usage économique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="131" code="2359PC00" designation="IEC Autres Infrastructures" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="132" code="2411MC00" designation="IEC Mobilier et matériel de bureau" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="133" code="2412MC00" designation="IEC Mobilier et matériel de logement" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="134" code="2413MC00" designation="IEC Mobilier et matériel  scolaires" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="135" code="2419MC00" designation="IEC Autres mobilier et matériel " idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="136" code="2421MC00" designation="IEC Matériels informatique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="137" code="2422MC00" designation="IEC Matériels audiovisuel" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="138" code="2429MC00" designation="IEC Autres matériels informatique et de com" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="139" code="2431MC00" designation="IEC Matériel de transport de service" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="140" code="2432MC00" designation="IEC Matériel de transport de fonction" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="141" code="2439MC00" designation="IEC Autres matériel de transport" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="142" code="2441MC00" designation="IEC Matériel agricole" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="143" code="2442MC00" designation="IEC Matériel de reboisement" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="144" code="2443MC00" designation="IEC Matériel équipement de pêche" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="145" code="2444MC00" designation="IEC Matériel équipement hydraulique" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="146" code="2445MC00" designation="IEC Matériel et équipement de sport" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="147" code="2446MC00" designation="IEC Matériel et équ. de conservation et de trans" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="148" code="2447MC00" designation="IEC Matériel et équipement médical" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="149" code="2448MC00" designation="IEC Matériel et équipement de surveillance" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="150" code="2449MC00" designation="IEC Autres Matériel et outillages techniques" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="151" code="2451MC00" designation="IEC Matériel de transport en commun" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="152" code="2452MC00" designation="IEC Matériel de transport de marchandises" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="153" code="2459MC00" designation="IEC Autres" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="154" code="2461MC00" designation="IEC Collections-oeuvres d'art" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="155" code="2471MC00" designation="IEC Stocks de céréales" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="156" code="2472MC00" designation="IEC Stocks de carburant" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="157" code="2479MC00" designation="IEC Autres stocks stratégiques ou d'urgence" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="158" code="2481MC00" designation="IEC Acquisition d'animaux de race" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="159" code="2511EC00" designation="IEC Bâtiments militaires à usage de bureau" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="160" code="2512EC00" designation="IEC Autres bâtiments militaires (autre que" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="161" code="2521EC00" designation="IEC Ouvrages et infrastructures terrestres" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="162" code="2522EC00" designation="IEC Ouvrages et infrastructures aériens" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="163" code="2523EC00" designation="IEC Ouvrages et infrastructures maritimes" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="165" code="2531EC00" designation="IEC Mobiliers" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="166" code="2532EC00" designation="IEC Matériels" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <categorie_immobilisation id="167" code="2539EC00" designation="IEC Autres équipements militaires" idTypeImmo="8" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="1" code="200000000001" designation="terrain de foot" idCategorieImmo="45" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="2" code="100000000000" designation="R et D plantation café" idCategorieImmo="1" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="3" code="200000000000" designation="terrain de tennis" idCategorieImmo="45" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="4" code="300000000000" designation="R et D plantation café - En cours" idCategorieImmo="88" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="5" code="400000000000" designation="terrain de tennis - IEC" idCategorieImmo="141" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <immobilisation id="6" code="500000000000" designation="Participation ent. transport public" idCategorieImmo="85" idUnite="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <devise id="1" code="AED" designation="Dirham des émirats arabes unis" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_achat id="1" code="S" designation="Achats stockés" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_achat id="2" code="F" designation="Fonctionnement" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_achat id="3" code="I" designation="Immobilisation" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <lieu_stockage id="1" code="4301" division="DK" designation="DK43-DMTA Dakar" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <type_commande id="1" code="MCOM" designation="Bon de commande" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <region id="1" code="1" designation="DAKAR" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <ville id="1" code="1111" designation="Ile de gorée" idRegion="1" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <demande_achat/>
+  <poste_demande_achat/>
+  <da_statut_avancement_historique/>
+  <commande_achat />
+  <poste_commande_achat />
+  <constatation_service_fait/>
+  <poste_constatation_service_fait/>
+  <csf_statut_avancement_historique/>
+</dataset>

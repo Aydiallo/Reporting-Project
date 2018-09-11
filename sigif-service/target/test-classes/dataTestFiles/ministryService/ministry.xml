@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <utilisateur id="1" idSAP="SAP1" login="alardo" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="ALARDO" prenom="Catherine" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="2" idSAP="SAP2" login="reynaud" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="REYNAUD" prenom="Angélique" telephone="" courriel="angelique.reynaud@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="3" idSAP="SAP3" login="diagne" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="DIAGNE" prenom="Malick" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="4" idSAP="SAP4" login="beaupoil" password="89999f0d39a1c0c788efa77f9192a699" civilite="Monsieur" nom="BEAUPOIL" prenom="Mickaël" telephone="" courriel="mickael.beaupoil@atos.net" compteActif="true" motDePasseGenere="true" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="5" idSAP="SAP5" login="beye" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="BEYE" prenom="Meissa" telephone="" courriel="mame-meissa.beye@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="6" idSAP="SAP6" login="ndir" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="NDIR" prenom="Mamadou" telephone="" courriel="mamadou.ndir@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="7" idSAP="SAP7" login="bouchot" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="BOUCHOT" prenom="Béatrice" telephone="" courriel="beatrice.bouchot@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="8" idSAP="SAP8" login="admin" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="ATOS" prenom="administrateur" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <utilisateur id="10" idSAP="TEST1" login="sansCompte" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="FORMULAIRE" prenom="sans compte" telephone="" courriel="catherine.alardo@atos.net" compteActif="false" motDePasseGenere="false" avecCompte="false" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0" />
+  <utilisateur id="11" idSAP="TEST2" login="sansMail" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Madame" nom="SANS MAIL" prenom="avec compte" telephone="" courriel="" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0" />
+  <utilisateur id="12" idSAP="TEST3" login="avecCompteSansRole" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE" prenom="avec compte" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0" />
+  <utilisateur id="13" idSAP="TEST4" login="MotDePasseGenere" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="MDP GENERE" prenom="avec compte" telephone="" courriel="mickael.beaupoil@atos.net" compteActif="true" motDePasseGenere="true" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0" />
+  <utilisateur id="14" idSAP="TEST5" login="avecCompteInactif" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="INACTIF" prenom="avec compte" telephone="" courriel="mame-meissa.beye@atos.net" compteActif="false" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0" />
+  <utilisateur id="16" idSAP="TEST6" login="utilisateurDesactive" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="USER INACTIF" prenom="avec compte" telephone="" courriel="mamadou.ndir@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="inactif" dateCreation="2017-05-18 00:00:00.0" dateModification="2017-05-18 00:00:00.0" />
+  <utilisateur id="17" idSAP="TEST7" login="avecCompteTousRoles" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE TOUS LES ROLES" prenom="avec compte" telephone="" courriel="malick.diagne@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-19 00:00:00.0" dateModification="2017-05-19 00:00:00.0" />
+  <utilisateur id="18" idSAP="TEST8" login="avecCompteDemandeur" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE DEMANDEUR" prenom="avec compte" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-19 00:00:00.0" dateModification="2017-05-19 00:00:00.0" />
+  <utilisateur id="19" idSAP="TEST9" login="avecCompteReceptionnaire" password="8d860a823d9bc076fcc388c5a1cb7507" civilite="Monsieur" nom="FORMULAIRE RECEPTIONNAIRE" prenom="avec compte" telephone="" courriel="catherine.alardo@atos.net" compteActif="true" motDePasseGenere="false" avecCompte="true" statut="actif" dateCreation="2017-05-19 00:00:00.0" dateModification="2017-05-19 00:00:00.0" />
+  <role id="1" code="DDA" designation="Demandeur DA" />
+  <role id="2" code="RSF" designation="Réceptionnaire SF" />
+  <ministere id="1" code="21" designation="Présidence de la république" perimetreFinancier="SNCS" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="2" code="22" designation="Assemblée nationale" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="3" code="31" designation="Ministère des affaires etrangeres et des" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="4" code="33" designation="Ministère de l'intérieur et de la sécuri" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="5" code="34" designation="Ministère de la justice" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="6" code="40" designation="Ministère de la pêche et de l'economie m" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="7" code="43" designation="Ministère de l'economie des finances et " perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="8" code="50" designation="Ministère de l'education nationale" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <ministere id="9" code="54" designation="Ministère de la santé et de l'action soc" perimetreFinancier="SNBG" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0" />
+  <service_depensier id="1" code="11701440110" designation="Service social mae" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="2" code="11701580111" designation="Cellule de planification, du suivi &#233;valu" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="3" code="11701590111" designation="Cellule de passation des march&#233;s" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="4" code="12204080111" designation="Direction du protocole et des conf&#233;rence" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="5" code="11100390110" designation=" cabinet du secr&#233;taire d&apos;etat aux s&#233;n&#233;ga" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="6" code="11701290110" designation="Bureau de coordination du comiac" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="7" code="11900060000" designation="P&#233;lerinages aux lieux-saints" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="8" code="11100110100" designation="Cabinet du ministre" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="9" code="11200040100" designation="Secretariat g&#233;n&#233;ral" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="10" code="11400040100" designation="Inspection des postes diplomatiques et c" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="11" code="11900050000" designation="Commissariat g&#233;n&#233;ral au pelerinage aux l" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="12" code="11700550100" designation="Service du chiffre" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="13" code="11700560100" designation="Bureau courrier valise diplomatique" perimetreFinancier="SNBG" idMinistere="3" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="14" code="11701270110" designation="Service de communication" perimetreFinancier="SNBG" idMinistere="5" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="15" code="11701540111" designation="Cellule de planification" perimetreFinancier="SNBG" idMinistere="5" statut="actif" dateCreation="2017-05-15 00:00:00.0" dateModification="2017-05-15 00:00:00.0"/>
+  <service_depensier id="16" code="12200820100" designation="Direction  du d&#233;veloppement du capital h" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="32" code="12202090110" designation="Direction de l&apos;adm.g&#233;n&#233;rale et de l&apos;equi" perimetreFinancier="SNBG" idMinistere="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="33" code="12300580110" designation="Service de contr&#244;le de gestion et planif" perimetreFinancier="SNBG" idMinistere="5" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="34" code="23404181100" designation="Service r&#233;gional du plan matam" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="35" code="23401810500" designation="Service r&#233;gional du plan tambacounda" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="36" code="12200590100" designation="Direction de l&apos;appui au secteur priv&#233;" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="37" code="12200630100" designation="Dir. monnaie et cr&#233;dit" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="39" code="23400880210" designation="Service r&#233;gional du plan ziguinchor" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="40" code="23401000300" designation="Service r&#233;gional du plan diourbel" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="41" code="23401390400" designation="Service r&#233;gional du plan st louis" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="42" code="23402260600" designation="Service r&#233;gional du plan kaolack" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="43" code="23402660700" designation="Service r&#233;gional du plan thies" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="44" code="23403090800" designation="Service r&#233;gional du plan louga" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="45" code="23403440900" designation="Service r&#233;gional du plan fatick" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="46" code="23403771000" designation="Service r&#233;gional du plan kolda" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="47" code="23404001000" designation="Service r&#233;gional r&#233;gl. superv s f d des " perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="48" code="23402080500" designation="Service r&#233;gional r&#233;gl. superv s f d des " perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="49" code="23402960700" designation="Service r&#233;gional r&#233;gl. superv s f d des " perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="50" code="23401670400" designation="Service r&#233;gional r&#233;gl. superv s f d des " perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="51" code="34600230111" designation="Observatoire qualit&#233; des services financ" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="52" code="12202820111" designation="Direction du secteur parapublic" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="53" code="11701630111" designation="Unit&#233; de coordination et de suivi des po" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="54" code="23603740710" designation="Service r&#233;gional r&#233;gl. superv sfd centre" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="55" code="12100110100" designation="Direction g&#233;n&#233;rale de la planification e" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="56" code="11701620111" designation="Cellule de suivi de  int&#233;gration" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="57" code="12200640100" designation="Dir. des assurances" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="58" code="11701220100" designation="Dir reglementation et supervision du sys" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="59" code="11900100000" designation="Agence nat. statistique et demograph" perimetreFinancier="SNBG" idMinistere="7" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="60" code="23400170100" designation="Sce reg act. sociale de dakar" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="61" code="23403550900" designation="Sce reg act. sociale de  fatick" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="62" code="23403170800" designation="Sce reg act. sociale de  louga" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="63" code="23401920500" designation="Sce reg act. sociale. tamba" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="64" code="23506291010" designation="Sce depart. act. sociale de  s&#233;dhiou" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="65" code="23501030130" designation="Sce depart. act. sociale  de  rufisque" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="66" code="12203020111" designation="Direction de l&apos;action m&#233;dicosociale" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="67" code="23600580110" designation="Cprs yoff" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="68" code="23600890120" designation="Cprs thiaroye" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="69" code="23600900120" designation="Cprs diamagueune" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="70" code="23601070130" designation="Cprs rufisque" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="71" code="23601090130" designation="Cprs yenne" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="72" code="23601330210" designation="Cprs ziguinchor" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="73" code="23601740310" designation="Cprs diourbel" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="74" code="23602140400" designation="Cprs ndar toute" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="75" code="23602370420" designation="Cprs dagana" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="76" code="23602520430" designation="Cprs podor" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="77" code="23603030600" designation="Cprs kaolack" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="78" code="23603930720" designation="Cprs mbour" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="79" code="23603940720" designation="Cprs joal" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="80" code="23603680710" designation="Cprs el hadji oumar thies" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="81" code="23604410820" designation="Cprs kebemer" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="82" code="23604510830" designation="Cprs linguere" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="83" code="23604270810" designation="Cprs louga" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="84" code="23604800910" designation="Cprs fatick" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="85" code="23604810910" designation="Cprs dioffior" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="86" code="23605251010" designation="Cprs kolda" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="87" code="23502500400" designation="Sce depart. act. sociale de  podor" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="88" code="23503070500" designation="Sce depart. act. sociale  de  bakel" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="89" code="23503080500" designation="Sce depart. act. sociale de k&#233;dougou" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="90" code="23603670710" designation="Cprs takhi kaw" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="91" code="23600530110" designation="Cprs gibraltar" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="92" code="23600540110" designation="Cprs medina" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="93" code="23600550110" designation="Cprs liberte 3a" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="94" code="23600560110" designation="Cprs liberte 3b" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="95" code="23404731300" designation="Sce reg act. sociale de sedhiou" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="96" code="23507291220" designation="Service d&#233;partemental de l&apos;action social" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="97" code="23502590410" designation="Service d&#233;partemental de l&apos;action social" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="98" code="23506281010" designation="Sce depart. act. sociale de kolda" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="99" code="23506301010" designation="Sce depart. act. sociale de  v&#233;lingara" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="100" code="23505080800" designation="Sce depart. act. sociale de k&#233;b&#233;mer" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="101" code="23505100800" designation="Sce depart. act. sociale de  louga" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="102" code="23502490400" designation="Sce depart. act. sociale  de  dagana" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="103" code="23503090500" designation="Sce depart. act. sociale  de  tamba" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="104" code="23504250700" designation="Sce depart. act. sociale de . m bour" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="105" code="23504260700" designation="Sce depart. act. sociale  de thi&#232;s" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="106" code="23504270700" designation="Sce depart. act. sociale de  tivaouane" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="107" code="23501380200" designation="Sce depart. act. sociale  de  bignona" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="108" code="23501390200" designation="Sce depart. act. sociale de  oussouye" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="109" code="23501400200" designation="Sce depart. act. sociale de ziguinchor" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="110" code="23500760120" designation="Sce depart. act. sociale de gu&#233;diawaye" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="111" code="23506881120" designation="Sce depart. act. sociale de  kanel" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="112" code="23500400100" designation="Sce depart. act. sociale . dakar" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="113" code="23501920300" designation="Sce depart. act. sociale r.bambey" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="114" code="23501930300" designation="Sce depart. act. sociale .diourbel" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="115" code="23501940300" designation="Sce depart. act. sociale.mbacke" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="116" code="23505630900" designation="Sce depart. act. sociale. fatick" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="117" code="23505640900" designation="Sce depart. act. sociale de. foundiougne" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="118" code="23505650900" designation="Sce depart. act. sociale de. gossas" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="119" code="23503680600" designation="Sce depart. act. sociale de. kaffrine" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="120" code="23503690600" designation="Sce depart. act. sociale de. kaolack" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="121" code="23503700600" designation="Sce depart. act. sociale de  nioro" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="122" code="23600570110" designation="Cprs fass delorme" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="123" code="12202490110" designation="Direction promotion et protection person" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="124" code="23601960330" designation="Centre r&#233;insertion sociale bambey" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="125" code="23601470220" designation="Centre r&#233;insertion sociale bignona" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="126" code="23604450821" designation="Centre r&#233;insertion sociale darou mousty" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="127" code="23603140610" designation="Centre r&#233;insertion sociale kaolack" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="128" code="23701030630" designation="Cprs de guinguineo" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="129" code="23700440310" designation="Cprs de touba" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="130" code="23700630410" designation="Cprs de ndioloffene" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="131" code="23800110111" designation="Cprs de dakar plateau" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="132" code="23700140120" designation="Service d&#233;partemental de l&apos;action social" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="133" code="23701040630" designation="Cprs de sokone" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="134" code="23600880120" designation="Cprs pikine" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="135" code="23601080130" designation="Cprs bambilor" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="136" code="23601810320" designation="Cprs mbacke" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="137" code="23602740510" designation="Cprs tambacounda" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="138" code="23603250620" designation="Cprs nioro du rip" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="139" code="23603690710" designation="Cprs khombole" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="140" code="23605030930" designation="Cprs foundiougne" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="141" code="23505090800" designation="Sce depart. act. sociale de  lingu&#232;re" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="142" code="23401090300" designation="Sce reg act. sociale. diourbel" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="143" code="23401520400" designation="Sce reg act. sociale de. st louis" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="144" code="23404991400" designation="Sce reg act. sociale de kedougou" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="145" code="23404501200" designation="Sce reg act. sociale de kaffrine" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="146" code="23402800700" designation="Sce reg act. sociale.  thies" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="147" code="23506641110" designation="Sce depart. act. sociale de matam" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="148" code="23402350600" designation="Sce reg act. sociale de  kaolack" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="149" code="23404081010" designation="Sce reg act. sociale de. kolda" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="150" code="23605571110" designation="Sce reg act .sociale et solidar. matam" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <service_depensier id="151" code="12202480110" designation="Direction promotion et protection des gr" perimetreFinancier="SNBG" idMinistere="9" statut="actif" dateCreation="2017-05-22 00:00:00.0" dateModification="2017-05-22 00:00:00.0"/>
+  <profil id="4" idUtilisateur="2" idMinistere="7" idServiceDepensier="16" idRole="1"/>
+  <profil id="5" idUtilisateur="2" idMinistere="3" idServiceDepensier="9" idRole="1"/>
+  <profil id="17" idUtilisateur="19" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="18" idUtilisateur="1" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="19" idUtilisateur="2" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="20" idUtilisateur="3" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="21" idUtilisateur="4" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="22" idUtilisateur="5" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="23" idUtilisateur="6" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="24" idUtilisateur="7" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="25" idUtilisateur="8" idMinistere="7" idServiceDepensier="16" idRole="2"/>
+  <profil id="26" idUtilisateur="1" idMinistere="3" idServiceDepensier="9" idRole="2"/>
+  <profil id="29" idUtilisateur="1" idMinistere="3" idServiceDepensier="9" idRole="2"/>
+  <profil id="30" idUtilisateur="1" idMinistere="3" idServiceDepensier="1" idRole="2"/>
+  <profil id="31" idUtilisateur="1" idMinistere="3" idServiceDepensier="2" idRole="2"/>
+  <profil id="32" idUtilisateur="1" idMinistere="3" idServiceDepensier="4" idRole="2"/>
+  <profil id="33" idUtilisateur="1" idMinistere="3" idServiceDepensier="5" idRole="2"/>
+  <profil id="34" idUtilisateur="1" idMinistere="3" idServiceDepensier="6" idRole="2"/>
+  <profil id="35" idUtilisateur="1" idMinistere="3" idServiceDepensier="7" idRole="2"/>
+  <profil id="36" idUtilisateur="1" idMinistere="3" idServiceDepensier="8" idRole="2"/>
+  <profil id="37" idUtilisateur="1" idMinistere="3" idServiceDepensier="9" idRole="2"/>
+  <profil id="38" idUtilisateur="1" idMinistere="3" idServiceDepensier="10" idRole="2"/>
+  <profil id="39" idUtilisateur="1" idMinistere="3" idServiceDepensier="11" idRole="2"/>
+  <profil id="40" idUtilisateur="1" idMinistere="3" idServiceDepensier="12" idRole="2"/>
+  <profil id="41" idUtilisateur="1" idMinistere="3" idServiceDepensier="13" idRole="2"/>
+  <profil id="42" idUtilisateur="1" idMinistere="9" idServiceDepensier="60" idRole="2"/>
+  <profil id="43" idUtilisateur="1" idMinistere="9" idServiceDepensier="61" idRole="2"/>
+  <profil id="44" idUtilisateur="1" idMinistere="9" idServiceDepensier="62" idRole="2"/>
+  <profil id="45" idUtilisateur="1" idMinistere="9" idServiceDepensier="63" idRole="2"/>
+  <profil id="46" idUtilisateur="1" idMinistere="9" idServiceDepensier="64" idRole="2"/>
+  <profil id="47" idUtilisateur="1" idMinistere="9" idServiceDepensier="65" idRole="2"/>
+  <profil id="48" idUtilisateur="1" idMinistere="9" idServiceDepensier="66" idRole="2"/>
+  <profil id="49" idUtilisateur="1" idMinistere="9" idServiceDepensier="67" idRole="2"/>
+  <profil id="50" idUtilisateur="1" idMinistere="9" idServiceDepensier="68" idRole="2"/>
+  <profil id="51" idUtilisateur="1" idMinistere="9" idServiceDepensier="69" idRole="2"/>
+  <profil id="52" idUtilisateur="1" idMinistere="9" idServiceDepensier="70" idRole="2"/>
+  <profil id="53" idUtilisateur="1" idMinistere="9" idServiceDepensier="71" idRole="2"/>
+  <profil id="54" idUtilisateur="1" idMinistere="9" idServiceDepensier="72" idRole="2"/>
+  <profil id="55" idUtilisateur="1" idMinistere="9" idServiceDepensier="73" idRole="2"/>
+  <profil id="56" idUtilisateur="1" idMinistere="9" idServiceDepensier="74" idRole="2"/>
+  <profil id="57" idUtilisateur="1" idMinistere="9" idServiceDepensier="75" idRole="2"/>
+  <profil id="58" idUtilisateur="1" idMinistere="9" idServiceDepensier="76" idRole="2"/>
+  <profil id="59" idUtilisateur="1" idMinistere="9" idServiceDepensier="77" idRole="2"/>
+  <profil id="60" idUtilisateur="1" idMinistere="9" idServiceDepensier="78" idRole="2"/>
+  <profil id="61" idUtilisateur="1" idMinistere="9" idServiceDepensier="79" idRole="2"/>
+  <profil id="62" idUtilisateur="1" idMinistere="9" idServiceDepensier="80" idRole="2"/>
+  <profil id="63" idUtilisateur="1" idMinistere="9" idServiceDepensier="81" idRole="2"/>
+  <profil id="64" idUtilisateur="1" idMinistere="9" idServiceDepensier="82" idRole="2"/>
+  <profil id="65" idUtilisateur="1" idMinistere="9" idServiceDepensier="83" idRole="2"/>
+  <profil id="66" idUtilisateur="1" idMinistere="9" idServiceDepensier="84" idRole="2"/>
+  <profil id="67" idUtilisateur="1" idMinistere="9" idServiceDepensier="85" idRole="2"/>
+  <profil id="68" idUtilisateur="1" idMinistere="9" idServiceDepensier="86" idRole="2"/>
+  <profil id="69" idUtilisateur="1" idMinistere="9" idServiceDepensier="87" idRole="2"/>
+  <profil id="70" idUtilisateur="1" idMinistere="9" idServiceDepensier="88" idRole="2"/>
+  <profil id="71" idUtilisateur="1" idMinistere="9" idServiceDepensier="89" idRole="2"/>
+  <profil id="72" idUtilisateur="1" idMinistere="9" idServiceDepensier="90" idRole="2"/>
+  <profil id="73" idUtilisateur="1" idMinistere="9" idServiceDepensier="91" idRole="2"/>
+  <profil id="74" idUtilisateur="1" idMinistere="9" idServiceDepensier="92" idRole="2"/>
+  <profil id="75" idUtilisateur="1" idMinistere="9" idServiceDepensier="93" idRole="2"/>
+  <profil id="76" idUtilisateur="1" idMinistere="9" idServiceDepensier="94" idRole="2"/>
+  <profil id="77" idUtilisateur="1" idMinistere="9" idServiceDepensier="95" idRole="2"/>
+  <profil id="78" idUtilisateur="1" idMinistere="9" idServiceDepensier="96" idRole="2"/>
+  <profil id="79" idUtilisateur="1" idMinistere="9" idServiceDepensier="97" idRole="2"/>
+  <profil id="80" idUtilisateur="1" idMinistere="9" idServiceDepensier="98" idRole="2"/>
+  <profil id="81" idUtilisateur="1" idMinistere="9" idServiceDepensier="99" idRole="2"/>
+</dataset>

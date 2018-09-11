@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="/WEB-INF/template/template.xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+    
+    <ui:define name="title" >
+        <title>AYD location</title>
+    </ui:define>
+     <ui:define name="css" >
+   			<!-- Main CSS-->
+     <h:outputStylesheet library="css" name="main.css"/>
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+    
+   </ui:define>
+    <ui:define name="content" >
+        
+
+ 
+        <!-- page content -->
+                <main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-th-list"></i> Data Table</h1>
+          <p>Table to display analytical data effectively</p>
+        </div>
+        <ul class="app-breadcrumb breadcrumb side">
+          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+          <li class="breadcrumb-item">Tables</li>
+          <li class="breadcrumb-item active"><a href="#">Data Table</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tile">
+            <div class="tile-body">
+             <h:form  class="form-group">
+              <table class="table table-hover table-bordered" id="sampleTable">
+                <thead>
+                  <tr>
+                     <th align="center">
+                       <c:choose>
+                         <c:when test="#{purgeService.toutCsf()}">
+                             <input type="checkbox" id="select_all" checked="checked" onclick="majToutCsfNDListId()" />
+                         </c:when>
+                           <c:otherwise>
+                              <input type="checkbox" id="select_all" onclick="majToutCsfNDListId()" />
+                           </c:otherwise>
+                       </c:choose>
+                       </th>
+                    <th>numéro dossier</th>
+                    <th>commentaire</th>
+                    <th>date de réception</th>
+                    <th>date création</th>
+                    <th>date mise à jour</th>
+                    <th>date création SAP</th>
+                    <th>date mise à jour SAP</th>
+                    <th>statut avancement</th>
+                    <th>statut certification</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                 <c:forEach items="#{purgeService.csfDeletableList}" var="item">
+				<tr>
+				   <td align="center">
+					   <c:choose>
+					   		<c:when test="#{item.selected}">
+					   		    <input class="checkbox" type="checkbox" name="check[]" onclick="majCsfNDListId(#{item.id})" 
+					   id="#{item.id}" checked="checked"/>
+					   		</c:when>	
+					        <c:otherwise>
+					        	<input class="checkbox" type="checkbox" name="check[]" onclick="majCsfNDListId(#{item.id})" 
+					   id="#{item.id}" />
+					        </c:otherwise>
+					    </c:choose>
+				  </td>
+					<td>#{item.numeroDossier}</td>
+					<td>#{item.commentaire}</td>
+					<td>#{item.dateReception}</td>
+					<td>#{item.dateCreation}</td>
+					<td>#{item.dateModification}</td>
+					<td>#{item.dateCreationSap}</td>
+					<td>#{item.dateMiseAjourSap}</td>
+					<td>#{item.statutAvancement}</td>
+					<td>#{item.statutCertification}</td>
+				</tr>
+			</c:forEach>
+                </tbody>
+              </table>
+             <b:remoteCommand name="majCsfNDListId" parameters="id" actionListener="#{purgeService.majCsfNDListId}" />
+              <b:remoteCommand name="majToutCsfNDListId" actionListener="#{purgeService.majToutCsfNDListId}" />
+              <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+             </h:form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+        <!-- /page content -->
+
+    
+    </ui:define>
+    <ui:define name="script" >
+  
+     
+     <!-- Essential javascripts for application to work-->
+     <h:outputScript library="js"  name="jquery-3.2.1.min.js"/>
+     <h:outputScript library="js"  name="popper.min.js"/>
+     <h:outputScript library="js"  name="bootstrap.min.js"/>
+     <h:outputScript library="js"  name="main.js"/>
+    <!-- The javascript plugin to display page loading on top-->
+     <h:outputScript library="js"  name="plugins/pace.min.js"/>
+    <!-- Page specific javascripts-->
+    <!-- Data table plugin-->
+     <h:outputScript library="js"  name="plugins/jquery.dataTables.min.js"/>
+     <h:outputScript library="js"  name="plugins/dataTables.bootstrap.min.js"/>
+    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+    <!-- Google analytics script-->
+    <script type="text/javascript">
+      if(document.location.hostname == 'pratikborsadiya.in') {
+      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      	ga('create', 'UA-72504830-1', 'auto');
+      	ga('send', 'pageview');
+      }
+    </script>
+    <script type="text/javascript">
+    $(function(){
+
+    	//select all checkboxes
+    	$("#select_all").change(function(){  //"select all" change 
+    	    $(".checkbox").prop('checked', $(this).prop("checked")); //change all ".checkbox" checked status
+    	});
+
+    	//".checkbox" change 
+    	$('.checkbox').change(function(){ 
+    	    //uncheck "select all", if one of the listed checkbox item is unchecked
+    	    if(false == $(this).prop("checked")){ //if this item is unchecked
+    	        $("#select_all").prop('checked', false); //change "select all" checked status to false
+    	    }
+    	    //check "select all" if all checkbox items are checked
+    	    if ($('.checkbox:checked').length == $('.checkbox').length ){
+    	        $("#select_all").prop('checked', true);
+    	    }
+    	});
+    });
+</script>
+      </ui:define>
+</ui:composition>
